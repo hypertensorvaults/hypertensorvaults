@@ -2,45 +2,125 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Welcome</title>
+  <title>TAOBOT LABS</title>
+  <link rel="icon" href="favicon.png" type="image/png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    html, body {
+    body {
       margin: 0;
       padding: 0;
-      font-family: Arial, sans-serif;
-      background: #f5f5f5;
-      color: #333;
+      font-family: 'Arial', sans-serif;
+      background: #dff2f7;
+      color: #222;
       display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
       flex-direction: column;
+      align-items: center;
       text-align: center;
+      min-height: 100vh;
+    }
+    .logo {
+      width: 120px;
+      margin-top: 30px;
+      border-radius: 50%;
     }
     h1 {
-      margin-bottom: 40px;
-      font-size: 2em;
+      margin: 20px 0 10px 0;
+      font-size: 1.8em;
     }
-    a.button {
-      display: inline-block;
-      padding: 1em 2em;
-      margin: 10px;
-      background: #4CAF50;
-      color: white;
-      text-decoration: none;
-      border-radius: 6px;
+    p.tagline {
+      margin: 0 0 30px 0;
+      font-size: 1em;
+      color: #555;
+    }
+    .section-title {
+      font-weight: bold;
+      margin: 30px 0 10px 0;
       font-size: 1.1em;
-      transition: background 0.3s;
     }
-    a.button:hover {
-      background: #45a049;
+    .link {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #f0f0f0;
+      border-radius: 8px;
+      padding: 12px 16px;
+      width: 90%;
+      max-width: 400px;
+      margin: 8px 0;
+      text-decoration: none;
+      color: #222;
+      transition: background 0.2s;
+    }
+    .link:hover {
+      background: #e0e0e0;
+    }
+    .link-icon {
+      font-size: 1.2em;
+      margin-right: 12px;
+      width: 24px;
+      text-align: center;
+    }
+    .link-label {
+      flex: 1;
+      text-align: left;
+      font-size: 1em;
     }
   </style>
 </head>
 <body>
-  <h1>Welcome to TAOBOT LABS</h1>
-  <a class="button" href="https://linktr.ee/taobotlabs" target="_blank">Visit My Linktree</a>
-  <a class="button" href="/stakers-leaderboard.html">View Stakers Leaderboard</a>
+  <img class="logo" src="logo.png" alt="Logo">
+  <h1>TAOBOT LABS</h1>
+  <p class="tagline">We make decentralized AI meet permissionless finance</p>
+
+  <!-- Bittensor Validation -->
+  <div class="section-title">Bittensor Validation</div>
+  <a class="link" href="https://taostats.io/validators/5DWnV8Z4E75DRK5JYzkW1GZW3KQjZLxM76EQSbb2WkwTBVMg" target="_blank">
+    <span class="link-icon">🌐</span>
+    <span class="link-label">TBL Validator</span>
+  </a>
+
+  <!-- Trading Vaults -->
+  <div class="section-title">Trading Vaults</div>
+  <a class="link" href="https://app.socialtrade.ai/vault/0x94d4575a477f43ce1aee11a97b86e664042e057c/" target="_blank">
+    <span class="link-icon">🏦</span>
+    <span class="link-label">Hypertensor Vaults</span>
+  </a>
+
+  <!-- Trading Signals -->
+  <div class="section-title">Trading Signals</div>
+  <a class="link" href="https://t.me/+1MDpCvTV1lMwZjZk" target="_blank">
+    <span class="link-icon">💲</span>
+    <span class="link-label">Tensor Pulse - Forex</span>
+  </a>
+  <a class="link" href="https://t.me/+HpIi7Jc9xudiMzE0" target="_blank">
+    <span class="link-icon">₿</span>
+    <span class="link-label">Tensor Pulse - Crypto</span>
+  </a>
+
+  <!-- Strategy Insights -->
+  <div class="section-title">Strategy Insights</div>
+  <a class="link" href="https://t.me/+J5-a6qAJfFoxYmU0" target="_blank">
+    <span class="link-icon">📈</span>
+    <span class="link-label">Tensor Insights</span>
+  </a>
+
+  <!-- Socials -->
+  <div class="section-title">Socials</div>
+  <a class="link" href="http://x.com/TaoBotLabs" target="_blank">
+    <span class="link-icon">𝕏</span>
+    <span class="link-label">X</span>
+  </a>
+  <a class="link" href="https://discord.gg/XgWqxQ5YJw" target="_blank">
+    <span class="link-icon">💬</span>
+    <span class="link-label">Discord</span>
+  </a>
+  <a class="link" href="https://t.me/+uiZKLLRNwl85YTVk" target="_blank">
+    <span class="link-icon">📢</span>
+    <span class="link-label">Telegram</span>
+  </a>
+  <a class="link" href="https://x.com/TaoBotLabs/articles" target="_blank">
+    <span class="link-icon">📚</span>
+    <span class="link-label">Articles</span>
+  </a>
 </body>
 </html>
